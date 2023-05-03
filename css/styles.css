@@ -1,0 +1,83 @@
+
+
+@font-face {
+	font-family: url(../img/LeagueGothic-CondensedItalic.otf);
+    src: url(../img/LeagueGothic-CondensedItalic.otf);
+}
+
+nav.menue-nav ul li.btn{
+  		list-style-type: none;
+  		display: inline-block;
+}
+
+nav.menue-nav ul li.btn a{
+		color: #B70707;
+		list-style-type: none;
+}
+
+	.welcome{
+		color: darkred;
+		font-size: 80px;
+		padding: 60px;
+	}
+
+body{
+	height: 100%;
+    font-family: "oblique", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    background: url("./video/car.mp4") no-repeat center fixed;
+    background-size: cover;
+	}
+	.description{
+		color: #b7a714;
+	}
+
+	.href{
+		font-size: 50px;
+	}
+
+	.welcome{
+		color: rgb(132, 132, 18);
+	}
+
+	.textea{
+		color: rgb(164, 164, 40);
+		font-size: 20px;
+	}
+
+	h2, p, a, nav, a{
+		text-align: center;
+	}
+
+	h2{
+		color: rgba(207, 188, 18, 0.677);
+		font-size: 50px;
+	}
+
+#animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150vw;
+    height: 100vh;
+	z-index: -1;
+}
+
+#animated-background::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#video {
+	width: 100vw;
+}
+
+	  

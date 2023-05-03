@@ -1,0 +1,80 @@
+@font-face {
+	font-family: bluray;
+    src: url(../imgfilm/BlueRays-Regular.ttf);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden ;
+    font-family: bluray;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.blazejeu {
+
+    color: white;
+    font-size: x-large;
+}
+
+h2, img{
+    text-align: center ;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+.contenaire {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.blazejeu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin-bottom: 70px;
+    margin-left: 40px;
+}
+
+#animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150vw;
+    height: 100vh;
+	z-index: -1;
+    filter: blur(7px);
+}
+
+#animated-background::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#video {
+	width: 100vw;
+}
