@@ -79,3 +79,11 @@ img{
 #video {
 	width: 100vw;
 }
+
+img:hover {
+    transform: scale(1.2); 
+}
+img {
+    transition: all 0.3s ease-out;
+}
+

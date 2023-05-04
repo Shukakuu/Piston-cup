@@ -1,0 +1,40 @@
+img:hover {
+    transform: scale(1.2); 
+}
+img {
+    transition: all 0.3s ease-out;
+}
+
+h2{
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.etoile{
+    position:absolute; left: 500px; top: 30%;
+}
+
+.cyborg{
+    position: absolute; left: 1000px; top: 30%;
+}
+
+.ctout{
+    position: absolute; left: 1500px;top: 30%;
+
+}
+
+
+
+
+
+
+.nepal{
+    position: absolute; left: 1500px;top: 67%;
+
+}
+
+
+
