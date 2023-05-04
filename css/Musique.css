@@ -26,6 +26,10 @@ h2{
 
 }
 
+.fenetre{
+    position: absolute; left: 1000px; top: 67%;
+}
+
 .nepal{
     position: absolute; left: 1500px;top: 67%;
 
