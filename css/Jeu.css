@@ -10,7 +10,7 @@ body{
     overflow-x: hidden ;
     font-family: "HoryzenBold.ttf", sans-serif;
     -webkit-font-smoothing: antialiased;
-    background-image: url("../img/zelda-link.gif");
+    /* background-image: url("../img/zelda-link.gif"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
