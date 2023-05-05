@@ -13,43 +13,23 @@ h2{
     font-size: 40px;
 }
 
-.etoile{
-    position:absolute; 
-    left: 500px; 
-    top: 30%;
+.contenaire {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
-.cyborg{
-    position: absolute; 
-    left: 1000px; 
-    top: 30%;
+.blazeic {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin-bottom: 70px;
+    margin-left: 40px;
 }
-
-.ctout{
-    position: absolute; 
-    left: 1500px;
-    top: 30%;
-
-}
-
-.fenetre{
-    position: absolute; 
-    left: 1000px; 
-    top: 67%;
-}
-
-.nepal{
-    position: absolute; 
-    left: 1500px;
-    top: 67%;
-
-}
-
-.garcon{
-    position: absolute;
-    left: 500px;
-    top: 67%;
-}
-
 
 
