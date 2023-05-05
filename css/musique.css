@@ -31,5 +31,14 @@ h2{
     margin-bottom: 70px;
     margin-left: 40px;
 }
-
+body{
+    background-image: url("../video/fondzic.gif"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+}
 
