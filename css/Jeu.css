@@ -55,6 +55,11 @@ img{
     margin-left: 40px;
 }
 
+.logo {
+    width: auto;
+    height: auto;
+}
+
 #animated-background {
     position: fixed;
     top: 0;
