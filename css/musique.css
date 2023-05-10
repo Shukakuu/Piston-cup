@@ -71,7 +71,7 @@ body {
     flex-wrap:wrap;
     display:flex;
     justify-content: center;
-    margin:0 auto;  
+    margin: 35px;  
   }
   
   .flex iframe {
@@ -129,7 +129,7 @@ body {
     flex-wrap:wrap;
     display:flex;
     justify-content: center;
-    margin:0 auto;  
+    margin: 35px;  
   }
   
   .flax iframe {
@@ -170,3 +170,9 @@ body {
   .flmx iframe:last-child {
     margin:0;
   }
+
+  @font-face {
+    font-family: bluray;
+      src: url(../imgmediamusic/);
+  }
+  
