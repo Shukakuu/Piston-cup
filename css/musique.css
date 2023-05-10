@@ -147,3 +147,26 @@ body {
   .flax iframe:last-child {
     margin:0;
   }
+
+  body {
+    background:black;
+    padding:10px;
+  }
+  
+  .flmx {
+    display:flex;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;  
+  }
+
+  .flmx iframe {
+    margin-right:20px;
+    margin-bottom:20px;
+    transition: all .3s;
+  }
+  
+  .flmx iframe:last-child {
+    margin:0;
+  }
