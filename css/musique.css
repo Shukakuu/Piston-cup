@@ -70,3 +70,90 @@ body{
 #video {
 	width: 100vw;
 }
+
+body {
+    background:black;
+    padding:10px;
+  }
+  
+  .flex {
+    display:flex;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;  
+  }
+  
+  .flex iframe {
+    margin-right:20px;
+    margin-bottom:20px;
+    transition: all .3s;
+  }
+  
+  .flex iframe:hover {
+    transform:scale(1.05);
+    border:2px solid hotpink;
+    border-radius: 20px;
+  }
+  
+  .flex iframe:last-child {
+    margin:0;
+  }
+
+  body {
+    background:black;
+    padding:10px;
+  }
+  
+  .flox {
+    display:flex;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;  
+  }
+  
+  .flox iframe {
+    margin-right:20px;
+    margin-bottom:20px;
+    transition: all .3s;
+  }
+  
+  .flox iframe:hover {
+    transform:scale(1.05);
+    border:2px solid hotpink;
+    border-radius: 20px;
+  }
+  
+  .flox iframe:last-child {
+    margin:0;
+  }
+
+  body {
+    background:black;
+    padding:10px;
+  }
+  
+  .flax {
+    display:flex;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;  
+  }
+  
+  .flax iframe {
+    margin-right:20px;
+    margin-bottom:20px;
+    transition: all .3s;
+  }
+  
+  .flax iframe:hover {
+    transform:scale(1.05);
+    border:2px solid hotpink;
+    border-radius: 20px;
+  }
+  
+  .flax iframe:last-child {
+    margin:0;
+  }
