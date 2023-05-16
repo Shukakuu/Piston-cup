@@ -15,7 +15,7 @@ nav.menue-nav ul li.btn a{
 
 	.welcome{
 		color: darkred;
-		font-size: 40px;
+		font-size: 80px;
 		padding: 60px;
 	}
 
@@ -33,17 +33,19 @@ body{
 
 	.href{
 		font-size: 30px;
+		margin-bottom: 200px;
 	}
 
 	.welcome{
 		color: rgb(132, 132, 18);
-		font-size: 40px;
+		font-size: 80px;
+		margin-bottom: 100px;
 	}
 
 	.textea{
 		color: rgb(164, 164, 40);
-		font-size: 40px;
-		margin-bottom: 400px;
+		font-size: 80px;
+		margin-bottom: 200px;
 	}
 	.btn{
 		font-size: 20px;
