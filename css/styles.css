@@ -15,7 +15,7 @@ nav.menue-nav ul li.btn a{
 
 	.welcome{
 		color: darkred;
-		font-size: 80px;
+		font-size: 40px;
 		padding: 60px;
 	}
 
@@ -32,25 +32,30 @@ body{
 	}
 
 	.href{
-		font-size: 50px;
+		font-size: 30px;
 	}
 
 	.welcome{
 		color: rgb(132, 132, 18);
-		font-size: 80px;
+		font-size: 40px;
 	}
 
 	.textea{
 		color: rgb(164, 164, 40);
-		font-size: 80px;
-	}
-
-	.btn{
 		font-size: 40px;
+		margin-bottom: 400px;
+	}
+	.btn{
+		font-size: 20px;
 	}
 
+	.bouton{
+		color: #B70707;
+		right: 100px;
+	}
 	h2, p, a, nav, a{
 		text-align: center;
+		margin-bottom: auto;
 	}
 
 	h2{
@@ -82,4 +87,54 @@ body{
 	width: 100vw;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+a {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    color: rgb(149, 146, 5);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid rgb(149, 146, 5);
+    padding: 10px 30px;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 1s, box-shadow 1s;
+}
+ 
+a:hover {
+    transition-delay: 0s, 1s;
+    color: rgb(149, 146, 5);
+    box-shadow:
+        0 0 10px rgb(149, 146, 5)
+        0 0 20px rgb(149, 146, 5)
+        0 0 40px rgb(149, 146, 5)
+        0 0 80px rgb(149, 146, 5)
+        0 0 160px rgb(149, 146, 5)
+}
+ 
+a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: rgb(149, 146, 5);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+}
+ 
+a:hover:before {
+    width: 100%;
+}
 	  
